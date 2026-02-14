@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Radiation Dose Awareness Tool</title>
+    <link rel="stylesheet" href="Radstyle.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Radiation Dose Awareness Tool</h1>
+        <p class="subtitle">
+            An educational tool for radiography students to understand typical radiation dose levels.
+        </p>
+
+        <!-- Form Section -->
+        <div class="form-card">
+            <label for="modality">Select Modality:</label>
+            <select id="modality">
+                <option value="">--Choose Modality--</option>
+                <option value="Xray">X-ray</option>
+                <option value="CT">CT</option>
+            </select>
+
+            <label for="bodyPart">Select Body Part:</label>
+            <select id="bodyPart">
+                <option value="">--Choose Body Part--</option>
+                <option value="Chest">Chest</option>
+                <option value="Skull">Skull</option>
+                <option value="Abdomen">Abdomen</option>
+                <option value="LumbarSpine">Lumbar Spine</option>
+            </select>
+
+            <button onclick="checkDose()">Check Dose</button>
+        </div>
+
+        <!-- Result Section -->
+        <div id="result" class="result-card"></div>
+
+        <!-- ALARA Section -->
+        <div class="alara-card">
+            <h2>Radiation Safety (ALARA)</h2>
+            <ul>
+                <li>Use proper collimation</li>
+                <li>Avoid repeat exposures</li>
+                <li>Apply appropriate shielding</li>
+                <li>Use the lowest dose necessary</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="Radscript.js"></script>
+</body>
+</html>
+
+

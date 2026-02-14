@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RadAssist AI | AI-Powered X-ray Screening</title>
+    <link rel="stylesheet" href="AI style.css">
+</head>
+<body>
+
+    <div class="medical-grid"></div>
+
+<!-- NAVIGATION -->
+<nav class="navbar">
+    <div class="logo">RadAssist AI</div>
+    <ul class="nav-links">
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#who">Who It Is For</a></li>
+        <li><a href="#safety">Safety</a></li>
+        <li><a href="#upload">Upload X-ray</a></li>
+    </ul>
+    <button class="themeToggle" onclick="document.body.classList.toggle('dark')"> Radiology Mode </button>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <h1>AI-Powered X-ray Screening in Seconds</h1>
+    <p>
+        Upload a chest X-ray and receive AI-assisted insights that help identify
+        potential abnormalities — fast, secure, and accessible.
+    </p>
+    <a href="#upload" class="primary-btn">Upload X-ray</a>
+    <p class="hero-note">For screening and informational use only</p>
+</section>
+
+<!-- WHAT IT DOES -->
+<section class="section">
+    <h2>What RadAssist AI Does</h2>
+    <p>
+        RadAssist AI uses advanced artificial intelligence to analyze chest X-ray
+        images and highlight patterns that may indicate potential abnormalities.
+    </p>
+
+    <div class="features">
+        <div class="feature-card">
+            <h3>AI Image Screening</h3>
+            <p>Analyzes X-ray images for abnormal radiographic patterns.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Fast Results</h3>
+            <p>Receive results in seconds, not hours.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Confidence Scores</h3>
+            <p>Provides probability-based insights, not diagnoses.</p>
+        </div>
+    </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section light" id="how">
+    <h2>How It Works</h2>
+
+    <ol class="steps">
+        <li>Upload a chest X-ray image</li>
+        <li>AI analyzes radiographic patterns</li>
+        <li>System flags possible abnormalities</li>
+        <li>You receive an instant screening result</li>
+    </ol>
+</section>
+
+<!-- WHO IT'S FOR -->
+<section class="section" id="who">
+    <h2>Who RadAssist AI Is For</h2>
+
+    <ul class="audience">
+        <li>Radiography students & educators</li>
+        <li>Clinics seeking AI-assisted screening</li>
+        <li>Telemedicine platforms</li>
+        <li>Healthcare startups & NGOs</li>
+    </ul>
+</section>
+
+<!-- SAFETY & TRUST -->
+<section class="section light" id="safety">
+    <h2>Safety, Ethics & Trust</h2>
+
+    <p>
+        RadAssist AI is designed as a decision-support and screening tool.
+        It does not provide medical diagnoses and does not replace professional
+        radiological interpretation.
+    </p>
+
+    <div class="trust-box">
+        <p><strong>Key Principles:</strong></p>
+        <ul>
+            <li>No clinical diagnosis</li>
+            <li>AI-assisted insights only</li>
+            <li>User data privacy respected</li>
+            <li>Images handled securely</li>
+        </ul>
+    </div>
+</section>
+
+<!-- AI UPLOAD SECTION -->
+<section class="section" id="upload">
+    <h1>Upload Chest X-ray for AI Analysis</h1>
+    <p>Get AI-assisted screening results within seconds. For informational use only.</p>
+
+    <div class="upload-card">
+        <input type="file" id="xrayInput" accept="image/*">
+        <button onclick="analyzeXray()">Analyze X-ray</button>
+    </div>
+
+    <div id="result" class="result-card"></div>
+</section>
+
+<!-- CALL TO ACTION -->
+<section class="cta">
+    <h2>Start AI-Assisted X-ray Screening Today</h2>
+    <p>Upload your first X-ray and experience fast AI insights.</p>
+    <a href="#upload" class="primary-btn">Get Started</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 RadAssist AI</p>
+    <p>
+        AI-assisted image analysis for informational purposes only. Not a medical diagnosis.
+    </p>
+</footer>
+
+<script src="AI script.js"></script>
+</body>
+</html>

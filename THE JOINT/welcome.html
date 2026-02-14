@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHOWCUSINE.COM</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: arial;
+        }
+
+        .container{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100vh;
+            animation: animate 16s ease-in-out infinite;
+            background-size: cover;
+        }
+
+        .outer{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(0,0,0,0.5);
+        }
+
+        .details{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .details h3{
+            font-size: 50px;
+            color: yellow;
+        }
+        .details h5{
+            font-size: 50px;
+            color: yellow;
+        }
+
+        .details p{
+            font-size: 50px;
+        }
+
+        @keyframes animate{
+            0%, 100%{
+                background-image: url(t10.jpg);
+            }
+            25%{
+                background-image: url(i20.jpeg);
+            }
+            50%{
+                background-image: url(backImg.jpg);
+            }
+            75%{
+                background-image: url(i19.jpeg);
+            }
+            100%{
+                background-image: url(frontImg.jpeg);
+            }
+        }
+    </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="outer">
+                <div class="details">
+                    <h3><i>EXIST TO SERVE</i></h3>
+                    <h5>CLICK ON ORDER NOW TO GET STARTED</h5>
+                        <p><a href="file:///C:/Users/Admin/Documents/load/THE JOINT/foodies.html" class="btn">ORDER NOW</a></p>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

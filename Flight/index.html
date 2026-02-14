@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jetly — Recreated One-Page (Original)</title>
+  <meta name="description" content="A clean modern one-page landing recreated from scratch (original code)." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><div class="logo">J</div><div style="font-weight:700;color:white">Jetly</div></div>
+      <nav>
+        <ul>
+          <li><a href="#features" class="muted">Features</a></li>
+          <li><a href="#gallery" class="muted">Screens</a></li>
+          <li><a href="#pricing" class="muted">Pricing</a></li>
+          <li><a href="#contact" class="muted">Contact</a></li>
+        </ul>
+      </nav>
+      <div style="display:flex;gap:12px;align-items:center">
+        <a class="ghost" href="#">Docs</a>
+        <a class="cta" href="#">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <div class="pill">Modern Landing • Original Rebuild</div>
+        <h1>Beautifully engineered UI for SaaS and apps</h1>
+        <p class="sub">A clean one-page layout with component sections — hero, features, gallery, pricing and contact. Fully responsive and easy to customize.</p>
+        <div class="actions">
+          <a class="cta" href="#pricing">Start free</a>
+          <a class="ghost" href="#features">Explore features</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h3 style="color:white;margin:22px 0 10px">Screenshots</h3>
+      <div class="gallery">
+        <div class="thumb">Dashboard</div>
+        <div class="thumb">Profile</div>
+        <div class="thumb">Analytics</div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h3 style="color:white;margin:28px 0 12px">Pricing</h3>
+      <div class="pricing">
+        <div class="plan">
+          <div style="font-weight:700">Starter</div>
+          <div class="price">$0<span style="font-size:13px;color:var(--muted)">/month</span></div>
+          <ul>
+            <li>1 project</li>
+            <li>Community support</li>
+            <li>Basic integrations</li>
+          </ul>
+          <div style="margin-top:12px"><a class="cta" href="#">Choose</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:36px">
+      <h3 style="color:white;margin-bottom:10px">Contact</h3>
+      <form class="card" onsubmit="event.preventDefault();alert('Thanks — message sent (demo)')">
+        <label>Your email</label>
+        <input required type="email" placeholder="you@company.com" />
+        <label>Message</label>
+        <textarea required placeholder="How can we help?"></textarea>
+        <div><button class="cta">Send message</button></div>
+      </form>
+    </section>
+
+    <footer>
+      <div class="muted">© 2025 Jetly — Recreated</div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    font-family: Inter, sans-serif; margin:0; background:#0f172a; color:white;
+}
+.container {
+    max-width:1100px; margin:0 auto; padding:28px;
+}
+header {
+    background:#071029; position:sticky; top:0;
+}
+.cta {
+    background:#6C63FF; padding:8px 14px; border-radius:8px; color:white;
+}
+.ghost {
+    border:1px solid #444; padding:8px 14px; border-radius:8px;
+}
+.hero {
+    padding:50px 0;
+}
+.gallery {
+    display:grid; grid-template-columns:repeat(3,1fr); gap:12px;
+}
+.thumb {
+    background:#222; padding:50px; text-align:center;
+}
+.pricing {
+    display:grid; grid-template-columns:repeat(3,1fr); gap:12px;
+}
+.plan {
+    background:#111; padding:20px; border-radius:8px;
+}
+footer {
+    padding:20px; text-align:center; background:#071029; color:#9ca3af;
+}

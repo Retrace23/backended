@@ -83,7 +83,7 @@ body.dark {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: #e5e7eb;
+    color: rgb(230, 220, 220);
 }
 
 body.dark .section,
@@ -100,7 +100,7 @@ body.dark .confidence-bar {
 }
 
 body.dark .navbar{
-    background-color: #ffffff;
+    background-color: #f3eded;
     color: #000000;
 }
 
